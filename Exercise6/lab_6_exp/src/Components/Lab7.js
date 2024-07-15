@@ -13,12 +13,12 @@ const Lab7 = () => {
 
         const formParams={
             from_name:name,
-            to_name:'Kaustubh',
+            to_name:'harshith',
             message:msg,
         };
 
         emailjs
-            .send('service_hp5svys', 'template_z3yzxrq', formParams,'r6pO_DQKHAepPuD8K',)
+            .send('gmail', 'test_template', formParams,'dEezcmNrWfkwYTAtu',)
             .then(
                 () => {
                     console.log('SUCCESS!');
